@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "rYhcqLoAKPNtURTMZ5C4dsB0INyiOt4beHldjBi6x3eGlQ2hVbXVLbscaE5k4zssLm/oHA2Hzr7vS4zghWEj4A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Admin\\Desktop\\draft\\hello-world\\SeftStudy\\DependencyInjection\\DependencyInjection.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\bower\\1.3.11\\bower.1.3.11.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\node.js\\0.10.28\\node.js.0.10.28.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\nogit\\0.0.8\\nogit.0.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}
