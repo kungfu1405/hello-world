@@ -1,0 +1,16 @@
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.exe
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.deps.json
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.runtimeconfig.json
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.runtimeconfig.dev.json
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\ref\Csl_1.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\Csl_1.pdb
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.AssemblyInfo.cs
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\ref\Csl_1.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.pdb
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.genruntimeconfig.cache
