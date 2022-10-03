@@ -1,6 +1,7 @@
 ﻿using System;
 using System.ComponentModel;
 using System.Linq;
+using System.Reflection;
 
 namespace Csl_1
 {
@@ -94,16 +95,52 @@ namespace Csl_1
             StringValue[] stringValue = fields.GetCustomAttributes(typeof(StringValue), false) as StringValue[];
             //var value = stringValue.FirstOrDefault();
             //Console.WriteLine(typeof(b));
+
+
+            ProBs.NameMonth(5);
             Console.ReadLine();
 
         }
 
     }
-    enum Month
+    class ProBs
     {
+        public static void  NameMonth(int month)
+        {            
+            Month thisMonth = (Month)month;
+
+            
+            Console.WriteLine(GetEnumDescription(thisMonth));
+            Console.ReadLine();
+        }
+        public static string GetEnumDescription(Enum value)
+        {
+            FieldInfo fi = value.GetType().GetField(value.ToString());
+
+            DescriptionAttribute[] attributes = fi.GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[];
+
+            if (attributes != null && attributes.Any())
+            {
+                return attributes.First().Description;
+            }
+
+            return value.ToString();
+        }
+    }
+    enum Month
+    {   [Description("Thang 1")]
         January =1,
         Feb = 2 , 
         March = 3,
+        April = 4,
+        May = 5,
+        June = 6,
+        July = 7,
+        August = 8,
+        September = 9,
+        October = 10,
+        November = 11,
+        December = 12,
     }
     public enum Season
     {
