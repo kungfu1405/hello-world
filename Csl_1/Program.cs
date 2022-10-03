@@ -97,7 +97,7 @@ namespace Csl_1
             //Console.WriteLine(typeof(b));
 
 
-            ProBs.NameMonth(5);
+            ProBs.NameMonth(1);
             Console.ReadLine();
 
         }
@@ -118,21 +118,25 @@ namespace Csl_1
             FieldInfo fi = value.GetType().GetField(value.ToString());
 
             DescriptionAttribute[] attributes = fi.GetCustomAttributes(typeof(DescriptionAttribute), false) as DescriptionAttribute[];
+            //DayAttribute[] attributes = fi.GetCustomAttributes(typeof(DayAttribute), false) as DayAttribute[];
 
             if (attributes != null && attributes.Any())
             {
                 return attributes.First().Description;
             }
-
             return value.ToString();
         }
     }
     enum Month
-    {   [Description("Thang 1")]
+    {   [DescriptionAttribute("Thang 1")]
         January =1,
-        Feb = 2 , 
+        [DescriptionAttribute("Thang 2")]
+        Feb = 2 ,
+        [DescriptionAttribute("Thang 3")]
         March = 3,
+        [DescriptionAttribute("Thang 4")]
         April = 4,
+        [DescriptionAttribute("Thang 5")]
         May = 5,
         June = 6,
         July = 7,
