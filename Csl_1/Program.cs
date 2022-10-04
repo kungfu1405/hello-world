@@ -2,9 +2,23 @@
 using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
-
+using XmSource;
 namespace Csl_1
 {
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            ThisMonth(3);
+            Console.ReadLine();
+        }
+        public static void ThisMonth(int month)
+        {
+            Month thisMonth = (Month)month;
+            Console.WriteLine(XmReflect.GetEnumDescription(thisMonth));
+            
+        }
+    }
     class StringClass
     {
         public StringClass()
@@ -67,42 +81,6 @@ namespace Csl_1
         }
         public T GenericProperty { get => genericField; set => genericField = value; }
     }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            //Console.WriteLine("Hello World!");
-            //Employee em1 = new Employee();
-            //Generic_Interface<Employee> generic_Interface = new Generic_Interface<Employee>(em1);
-            //Employee e = generic_Interface.GenericProperty;
-            //e.MethodPerson();
-
-            Season a = (Season)0; // Season.Autumn;
-            Type type = a.GetType();
-            var a_prop = type.GetProperty("Spring");
-
-            MyClass myClass = new MyClass();
-            Type myGenericclassType = typeof(MyClass);// myClass.GetType(); 
-
-            var genericPro = myGenericclassType.GetProperty("MyField");
-
-            var genericField = myGenericclassType.GetField("_myField");
-            var genericFields = myGenericclassType.GetFields();
-
-            string a_name = genericFields[0].Name;
-
-            var fields = a.GetType().GetField(a.ToString());    
-            StringValue[] stringValue = fields.GetCustomAttributes(typeof(StringValue), false) as StringValue[];
-            //var value = stringValue.FirstOrDefault();
-            //Console.WriteLine(typeof(b));
-
-
-            ProBs.NameMonth(1);
-            Console.ReadLine();
-
-        }
-
-    }
     class ProBs
     {
         public static void  NameMonth(int month)
@@ -126,17 +104,26 @@ namespace Csl_1
             }
             return value.ToString();
         }
+
+        //public static string GetEnumDescription(this Enum enumValue)
+        //{
+        //    var fieldInfo = enumValue.GetType().GetField(enumValue.ToString());
+
+        //    var descriptionAttributes = (DescriptionAttribute[])fieldInfo.GetCustomAttributes(typeof(DescriptionAttribute), false);
+
+        //    return descriptionAttributes.Length > 0 ? descriptionAttributes[0].Description : enumValue.ToString();
+        //}
     }
     enum Month
-    {   [DescriptionAttribute("Thang 1")]
+    {   [Description("Thang 1")]
         January =1,
-        [DescriptionAttribute("Thang 2")]
+        [Description("Thang 2")]
         Feb = 2 ,
-        [DescriptionAttribute("Thang 3")]
+        [Description("Thang 3")]
         March = 3,
-        [DescriptionAttribute("Thang 4")]
+        [Description("Thang 4")]
         April = 4,
-        [DescriptionAttribute("Thang 5")]
+        [Description("Thang 5")]
         May = 5,
         June = 6,
         July = 7,
@@ -148,10 +135,11 @@ namespace Csl_1
     }
     public enum Season
     {
-        [StringValue("Mua xuan")]
+        [Description("Mua xuan")]
         Spring,
         [Description("Mùa hè")]
         Summer,
+        [StringValue("Maf thu")]
         Autumn,
         Winter
     }

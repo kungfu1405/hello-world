@@ -14,3 +14,6 @@ C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.dll
 C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\ref\Csl_1.dll
 C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.pdb
 C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.genruntimeconfig.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\XmSource.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\bin\Debug\net5.0\XmSource.pdb
+C:\Users\Admin\Desktop\dk\draft\hello-world\Csl_1\obj\Debug\net5.0\Csl_1.csproj.CopyComplete

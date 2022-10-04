@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Csl_1
 {
-    class StringValue:Attribute
+    class StringValueAttribute:Attribute
     {
         public string Value;
-        public StringValue(string value)
+        public StringValueAttribute(string value)
         {
             Value = value;
         }

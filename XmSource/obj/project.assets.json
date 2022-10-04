@@ -1,30 +1,11 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {
-      "XmSource/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "compile": {
-          "bin/placeholder/XmSource.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/XmSource.dll": {}
-        }
-      }
-    }
+    "net5.0": {}
   },
-  "libraries": {
-    "XmSource/1.0.0": {
-      "type": "project",
-      "path": "../XmSource/XmSource.csproj",
-      "msbuildProject": "../XmSource/XmSource.csproj"
-    }
-  },
+  "libraries": {},
   "projectFileDependencyGroups": {
-    "net5.0": [
-      "XmSource >= 1.0.0"
-    ]
+    "net5.0": []
   },
   "packageFolders": {
     "C:\\Users\\Admin\\.nuget\\packages\\": {}
@@ -32,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\Csl_1\\Csl_1.csproj",
-      "projectName": "Csl_1",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\Csl_1\\Csl_1.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\XmSource\\XmSource.csproj",
+      "projectName": "XmSource",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\XmSource\\XmSource.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\Csl_1\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\XmSource\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -52,11 +33,7 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {
-            "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\XmSource\\XmSource.csproj": {
-              "projectPath": "C:\\Users\\Admin\\Desktop\\dk\\draft\\hello-world\\XmSource\\XmSource.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

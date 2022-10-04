@@ -1,0 +1,12 @@
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\bin\Debug\net5.0\XmSource.deps.json
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\bin\Debug\net5.0\XmSource.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\bin\Debug\net5.0\ref\XmSource.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\bin\Debug\net5.0\XmSource.pdb
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.AssemblyInfo.cs
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\ref\XmSource.dll
+C:\Users\Admin\Desktop\dk\draft\hello-world\XmSource\obj\Debug\net5.0\XmSource.pdb
