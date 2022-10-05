@@ -4,5 +4,6 @@ namespace XmSource
 {
     public class Class1
     {
+        
     }
 }

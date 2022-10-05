@@ -10,13 +10,15 @@ namespace Csl_1
         static void Main(string[] args)
         {
             ThisMonth(3);
-            Console.ReadLine();
+            //Console.ReadLine();
+            string n1 = "11", n2 = "44";
+
+            string lesster = Convert.ToInt16(n1) < Convert.ToInt16(n2) ? n1 : n2;
         }
         public static void ThisMonth(int month)
         {
             Month thisMonth = (Month)month;
-            Console.WriteLine(XmReflect.GetEnumDescription(thisMonth));
-            
+            Console.WriteLine(XmReflect.GetEnumDescription(thisMonth));            
         }
     }
     class StringClass
